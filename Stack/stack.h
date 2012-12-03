@@ -23,6 +23,7 @@ private:
     element *top;
     
 public:
+    Stack();
     int push();
     void pop(int a);
 };

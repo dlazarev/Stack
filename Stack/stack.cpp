@@ -7,3 +7,8 @@
 //
 
 #include "stack.h"
+
+Stack::Stack()
+{
+    top = NULL;
+}
