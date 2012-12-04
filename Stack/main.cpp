@@ -19,6 +19,8 @@ int main(int argc, const char * argv[])
     st.push(5);
     st.push(4);
     
+    while (!st.isEmpty())
+        std::cout << st.pop() << std::endl;
     return 0;
 }
 

@@ -25,7 +25,9 @@ private:
     
 public:
     Stack();
+    ~Stack();
     void push(int);
     int pop();
+    bool isEmpty() { return !top; }
 };
 #endif /* defined(__Stack__stack__) */

@@ -13,6 +13,17 @@ Stack::Stack()
     top = NULL;
 }
 
+Stack::~Stack()
+{
+    sNode *tmp;
+    
+    while(top) {
+        tmp = top;
+        top = top->prev;
+        delete tmp;
+    }
+}
+
 void Stack::push(int a)
 {
     sNode *tmp = new sNode;
