@@ -12,3 +12,12 @@ Stack::Stack()
 {
     top = NULL;
 }
+
+void Stack::push(int a)
+{
+}
+
+int Stack::pop()
+{
+    
+}

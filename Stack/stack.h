@@ -24,7 +24,7 @@ private:
     
 public:
     Stack();
-    int push();
-    void pop(int a);
+    void push(int);
+    int pop();
 };
 #endif /* defined(__Stack__stack__) */
