@@ -15,12 +15,13 @@ class Stack
 {
 private:
     
-    struct element {
+    struct sNode {
+//        friend class Stack;
         int data;
-        struct element *next;
+        sNode *prev;
     };
     
-    element *top;
+    sNode *top;
     
 public:
     Stack();

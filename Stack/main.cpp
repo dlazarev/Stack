@@ -7,12 +7,18 @@
 //
 
 #include <iostream>
+#include "stack.h"
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Stack st;
+    
+    st.push(2);
+    st.push(8);
+    st.push(3);
+    st.push(5);
+    st.push(4);
+    
     return 0;
 }
 
