@@ -48,6 +48,7 @@ int Queue::pop()
     bottom = bottom->next;
     delete tmp;
     
+    if (bottom == NULL) top = NULL;
     return a;
 }
 
