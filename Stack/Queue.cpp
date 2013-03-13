@@ -18,9 +18,9 @@ Queue::~Queue()
 {
     qNode *tmp = bottom;
     while (tmp) {
-        tmp = bottom;
         bottom = bottom->next;
         delete tmp;
+        tmp = bottom;
     }
     
 }

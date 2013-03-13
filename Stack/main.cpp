@@ -32,8 +32,8 @@ int main(int argc, const char * argv[])
     std::cout << "First element=" << qu.getFirst() << std::endl;
     std::cout << "Last element=" << qu.getLast() << std::endl;
     
-    while (!qu.isEmpty())
-        std::cout << qu.pop() << std::endl;
+ //   while (!qu.isEmpty())
+ //       std::cout << qu.pop() << std::endl;
     
     
     
